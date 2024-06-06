@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Agregar pieza prensa{% endblock %}
+
+{% block content %}
+    <h2>Agregar pieza prensa</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Guardar</button>
+    </form>
+{% endblock %}

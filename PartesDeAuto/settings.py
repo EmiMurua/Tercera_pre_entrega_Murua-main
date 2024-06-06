@@ -55,7 +55,7 @@ ROOT_URLCONF = 'PartesDeAuto.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/PC/Desktop/eeee/Tercera_pre_entrega_Murua-main/Tercera_pre_entrega_Murua-main/PiezasAuto/templates/PiezasAuto'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

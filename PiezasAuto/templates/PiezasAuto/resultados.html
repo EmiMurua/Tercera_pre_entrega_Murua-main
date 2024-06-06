@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Resultados de Búsqueda{% endblock %}
+
+{% block content %}
+    <h2>Resultados de Búsqueda</h2>
+    <ul>
+        {% for pieza in resultados %}
+            <li>{{ pieza.Code }} - {{ pieza.Client }} - {{ pieza.Cadencia }} - {{ pieza.NumDoc }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

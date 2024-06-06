@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+    <h2>Bienvenido a la Página de Inicio</h2>
+    <a href="{% url 'Agregar_nueva_piezaS' %}">Agregar Pieza de Soldadura</a>
+    <a href="{% url 'Agregar_nueva_piezaP' %}">Agregar Pieza de prensas</a>
+    <a href="{% url 'Lista_piezas_sold' %}">Lista de Piezas de soldadura</a>
+    <a href="{% url 'Lista_piezas_prensas' %}">Lista de piezas de prensas</a>
+    <a href="{% url 'Search_Pieza' %}">Buscar piezas</a>
+{% endblock %}
